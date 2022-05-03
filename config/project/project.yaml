@@ -1,0 +1,51 @@
+dateModified: 1650535094
+email:
+  fromEmail: vishwasai17@gmail.com
+  fromName: Craft
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    2b7e21f1-7e16-43d4-8403-4bf42f4d4b25: Common # Common
+    4f49eea0-8e63-45ca-ae31-c08937822ed3: 'Sub title' # Sub title
+    8af44386-466b-4685-bbb9-ceddbdf51e52: Location # Location
+    27ee37b0-c77f-478c-afde-dccabcd085a7: Business # Business
+    34f3a980-13de-44fd-be32-8867c28d89da: 'Complete FIt' # Complete FIt
+    35fe18d1-1ce8-4354-9baa-3c1cac69aba5: 'Business Image' # Business Image
+    85a0ff7f-ee8d-469e-bc36-300a568f9c8f: Signup # Signup
+    086b931c-2dfc-4852-a61b-f54b915947ed: 'Sign In' # Sign In
+    216a7121-c5f9-4b75-92e0-44495d55ceef: Location # Location
+    249fcb65-9cc4-43c6-855a-adb81fba7d17: Craft # Craft
+    472b63b0-bf49-4fc4-90ca-bc6a663601fd: 'Sign In' # Sign In
+    1692b478-fcdf-4637-9b01-b7291f294722: 'Home Categories' # Home Categories
+    14168f91-95fa-40a0-ae94-ddc6a1b115d9: Signup # Signup
+    027416a1-3458-4904-90ba-b1ead2b6e5a3: Craft # Craft
+    70404a75-1fbf-4f9b-8fd3-590b0e95115b: German # German
+    74764bb4-61eb-40ff-b611-4a722f74df7b: 'Sign Up' # Sign Up
+    a7b19a28-4262-4316-a3c7-1015d9c8fad9: 'Home Page' # Home Page
+    a58d6722-5f5f-4862-afb6-7e2b665dd2dd: 'Home Page' # Home Page
+    aae9eaa2-7688-4df0-ae45-839cb24ba52c: 'Home Page' # Home Page
+    b212afe4-c927-4e8b-9f7a-c99f42d5baef: Home # Home
+    ce6d456a-4493-4dc4-bfa2-0c589089766d: Business # Business
+    d69b784a-cbec-466f-9d74-a27853d63d61: 'Sign Up Now' # Sign Up Now
+    dbeb1327-5725-441a-b017-1cc6f5456a43: 'Sign In' # Sign In
+plugins:
+  buttonbox:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: Craft
+  schemaVersion: 3.7.33
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

@@ -1,0 +1,17 @@
+defaultPlacement: end
+enableVersioning: true
+handle: signIn
+name: 'Sign In'
+propagationMethod: all
+siteSettings:
+  249fcb65-9cc4-43c6-855a-adb81fba7d17: # Craft
+    enabledByDefault: true
+    hasUrls: true
+    template: signin/_entry
+    uriFormat: '{slug}'
+  70404a75-1fbf-4f9b-8fd3-590b0e95115b: # German
+    enabledByDefault: true
+    hasUrls: true
+    template: de/signin/_entry
+    uriFormat: '{slug}'
+type: channel

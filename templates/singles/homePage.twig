@@ -1,0 +1,22 @@
+{% extends "_layout" %}
+{# {% set businessImage = {
+  mode: 'crop',
+  width: 1440,
+  height: 600,
+  quality: 90
+} %} #}
+{% block content %}  
+{% if entry.businessImage|length %}
+    {% for image in entry.businessImage.all() %}
+    <div class="container">
+       <img src="{{ image.url }}" alt="{{ image.title }}" />
+       <div class="top-left"><h1 class="text-4xl text-black font-display my-4">{{ image.title }}</h1>
+        <h3 class="text-4xl text-black font-display my-4">{{ image.subTitle }}</h3>
+        {% if entry.signUp %}
+      <a class="nav-link active text-blue-600 {{'border-b border-blue-400' }}" href="{{ entry.signUp }}"><button type="button" class="btn btn-primary">Sign Up Now</button></a>
+     {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  {% endif %}
+{% endblock %}

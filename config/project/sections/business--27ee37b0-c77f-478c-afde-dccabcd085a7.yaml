@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: business
+name: Business
+propagationMethod: all
+siteSettings:
+  249fcb65-9cc4-43c6-855a-adb81fba7d17: # Craft
+    enabledByDefault: true
+    hasUrls: true
+    template: business/_entry
+    uriFormat: '{slug}'
+type: channel

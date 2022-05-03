@@ -1,0 +1,9 @@
+baseUrl: '@web/de'
+enabled: true
+handle: german
+hasUrls: true
+language: de
+name: German
+primary: false
+siteGroup: 027416a1-3458-4904-90ba-b1ead2b6e5a3 # Craft
+sortOrder: 2

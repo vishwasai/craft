@@ -1,0 +1,34 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b212afe4-c927-4e8b-9f7a-c99f42d5baef # Home
+handle: signUpNow
+instructions: ''
+name: 'Sign Up Now'
+searchable: false
+settings:
+  displayAsGraphic: ''
+  displayFullwidth: ''
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - ''
+        -
+          - showLabel
+          - '1'
+        -
+          - imageUrl
+          - ''
+        -
+          - type
+          - link
+        -
+          - value
+          - signup/_entry
+        -
+          - newWindow
+          - '1'
+translationKeyFormat: null
+translationMethod: none
+type: supercool\buttonbox\fields\Triggers

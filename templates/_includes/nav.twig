@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <img  src="https://businessgiftregistry.com/wp-content/uploads/2019/04/hpinstantink.jpg"style="width:100px;height:100px;">
+
+ {% set firstSegment = craft.app.request.getSegment(1) %}
+  <ul class="flex navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+      <a class="nav-link active text-blue-600 {{ firstSegment == '' ? 'border-b border-blue-400' }}" href="{{ siteUrl }}">For Home/Home Office</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active text-blue-600 {{ firstSegment == 'business' ? 'border-b border-blue-400' }}" href="{{ url('business') }}">For Business</a>
+    </li>
+  </ul>
+
+  <form class="d-flex ">
+    <ul class="flex navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item dropdown">
+        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+          Location
+        </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="de">german</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+          </div>  
+      </li>  
+      <li class="nav-item">
+        <a class="nav-link active text-blue-600 {{ firstSegment == 'signin' ? 'border-b border-blue-400' }}" href="{{ url('signin') }}"><button type="button" class="btn btn-light">Sign In</button></a>
+      </li>  
+      <li class="nav-item">
+        <a class="nav-link active text-blue-600 {{ firstSegment == 'signup' ? 'border-b border-blue-400' }}" href="{{ url('signup') }}"><button type="button" class="btn btn-primary">Sign Up Now</button></a>
+      </li>
+    </ul>
+  </form>
+      
+</nav>

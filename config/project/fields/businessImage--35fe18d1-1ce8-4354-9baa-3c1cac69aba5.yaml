@@ -1,0 +1,34 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b212afe4-c927-4e8b-9f7a-c99f42d5baef # Home
+handle: businessImage
+instructions: ''
+name: 'Business Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:aae9eaa2-7688-4df0-ae45-839cb24ba52c' # Home Page
+  defaultUploadLocationSubpath: '{slug}'
+  limit: '1'
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: '1'
+  selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:aae9eaa2-7688-4df0-ae45-839cb24ba52c' # Home Page
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:aae9eaa2-7688-4df0-ae45-839cb24ba52c' # Home Page
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

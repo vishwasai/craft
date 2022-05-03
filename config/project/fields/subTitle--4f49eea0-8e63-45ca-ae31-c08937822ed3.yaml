@@ -1,0 +1,19 @@
+columnSuffix: ofqxcvrf
+contentColumnType: text
+fieldGroup: 2b7e21f1-7e16-43d4-8403-4bf42f4d4b25 # Common
+handle: subTitle
+instructions: ''
+name: 'Sub title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

@@ -1,0 +1,15 @@
+columnSuffix: fvrrwomg
+contentColumnType: string(255)
+fieldGroup: b212afe4-c927-4e8b-9f7a-c99f42d5baef # Home
+handle: signUp
+instructions: ''
+name: 'Sign Up'
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Url

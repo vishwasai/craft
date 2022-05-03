@@ -1,0 +1,45 @@
+defaultPlacement: end
+fieldLayouts:
+  25f94974-4d45-4e5e-b4cf-c1713114fd87:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: homeCategories
+name: 'Home Categories'
+siteSettings:
+  249fcb65-9cc4-43c6-855a-adb81fba7d17: # Craft
+    hasUrls: true
+    template: singles/home/_categories
+    uriFormat: '{slug}'
+  70404a75-1fbf-4f9b-8fd3-590b0e95115b: # German
+    hasUrls: true
+    template: singles/home/_categories
+    uriFormat: '{slug}'
+structure:
+  maxLevels: 1
+  uid: 338c0597-ccbd-41ba-bec6-cb0090b453a8
