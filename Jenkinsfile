@@ -6,7 +6,7 @@ pipeline {
       {
          steps
          {  
-            git credentialsId: 'git', url: 'git@github.com:vishwasai/MiniProject.git'
+            git credentialsId: 'git', url: 'git@github.com:vishwasai/craft.git'
          }
       }
    }
