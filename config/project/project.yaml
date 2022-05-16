@@ -1,4 +1,4 @@
-dateModified: 1650535094
+dateModified: 1652608132
 email:
   fromEmail: vishwasai17@gmail.com
   fromName: Craft
@@ -29,6 +29,10 @@ meta:
     d69b784a-cbec-466f-9d74-a27853d63d61: 'Sign Up Now' # Sign Up Now
     dbeb1327-5725-441a-b017-1cc6f5456a43: 'Sign In' # Sign In
 plugins:
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '1.2'
   buttonbox:
     edition: standard
     enabled: true
